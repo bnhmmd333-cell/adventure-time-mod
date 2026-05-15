@@ -1,5 +1,4 @@
 [
-    // --- Your custom terrains (with Adventure Time names) ---
     {
         "name": "Grass Land",
         "type": "Land",
@@ -14,7 +13,7 @@
         "food": 0,
         "movementCost": 1,
         "RGB": [255, 204, 0],
-        "uniques": ["[-1 Food]"]
+        "uniques": ["[-1] Food"]
     },
     {
         "name": "Snow Land",
@@ -31,7 +30,7 @@
         "production": 1,
         "movementCost": 2,
         "RGB": [34, 139, 34],
-        "uniques": ["[+1 Production]"]
+        "uniques": ["[+1] Production"]
     },
     {
         "name": "Sea Water",
@@ -49,9 +48,6 @@
         "RGB": [0, 50, 100],
         "uniques": []
     },
-
-    // --- Required terrains the map generator expects ---
-    // We keep these standard so the game doesn't break.
     {
         "name": "Plains",
         "type": "Land",
