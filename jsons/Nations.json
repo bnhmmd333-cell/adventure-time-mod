@@ -2,311 +2,175 @@
 	{
 		"name": "Candy Kingdom",
 		"leaderName": "Princess Bubblegum",
-		"adjective": ["Candy"],
-		"startBias": ["Grassland"],
 		"preferredVictoryType": "Scientific",
-		"startIntroPart1": "Welcome to the Candy Kingdom, where life is sweet and science rules!",
-		"startIntroPart2": "Our gumdrop trees and sugar-coated laboratories are the envy of Ooo.",
-		"declaringWar": "For the safety of my citizens, I must dissolve your threat.",
-		"attacked": "You dare bring war to my sugary shores? You'll regret this.",
-		"defeated": "The experiment... has failed. But science will rise again.",
-		"introduction": "Greetings, traveller. I am Princess Bubblegum, ruler of the Candy Kingdom. Care for a taffy?",
-		"neutralHello": "Hello.",
-		"hateHello": "Oh. It's you.",
-		"tradeRequest": "Let's make a deal. I've got some excellent sugar reserves.",
-		"denounced": "Your rule is as unstable as a poorly mixed carbonated solution.",
-		"declaringfriendship": "We share common interests. Let's combine our research!",
+		
+		"startIntroPart1": "Welcome to the Candy Kingdom, the sweetest realm in all of Ooo!",
+		"startIntroPart2": "I am Princess Bubblegum. Science and sugar will lead my people to greatness.",
+		
+		"declaringWar": "You've proven to be a bad ingredient. Time to cut you out of the recipe!",
+		"attacked": "How dare you bring war to my kingdom. The candy people will defend their home!",
+		"defeated": "My precious candy citizens... I'm sorry I couldn't protect you...",
+		"introduction": "Greetings! I am Princess Bubblegum, ruler of the Candy Kingdom. State your business.",
+		
+		"neutralHello": "Hello there! Care for a cupcake?",
+		"hateHello": "I'm not impressed. Don't waste my time.",
+		"tradeRequest": "I've developed a new candy formula. Want to trade for it?",
+		"denounced": "Your behaviour is purely rotten. I'll make sure everyone knows.",
+		"declaringfriendship": "You're not as bad as the other kingdoms. Let's be friends!",
+		
 		"outerColor": [255, 182, 193],
 		"innerColor": [255, 105, 180],
-		"uniqueName": "Sugar Science",
+		"uniqueName": "Candy Science",
 		"uniques": [
-			"[+2 Science] from every [Plantation]",
-			"[+15% Production] towards [Scientific] buildings",
-			"[+1 Food] from [Sugar] tiles"
+			"[+2 Science] from every [Sugar] tile",
+			"[+1 Happiness] from every [Library]",
+			"[-15% Gold] from [Trade Route]"
 		],
-		"cities": [
-			"Candy Capital","Gumball Guard","Peppermint Palace","Sugarplum","Taffy Town","Lollipop Lane",
-			"Chocolate Keep","Jellybean","Cottoncandy","Marshmallow","Toffeetown","Candied Fields","Gingerbread",
-			"Sweetwater","Rockcandy","Bubblegum","Sprinkle","Fudge","Bonbon","Caramel","Truffle"
-		]
+		"cities": ["Candy Capital","Gumball Gardens","Sugar Spire","Lollipop Lane","Peppermint Palace","Gingerbread Village","Chocolate Castle","Cupcake Corner","Marshmallow Meadow","Taffy Town","Caramel Cove","Butterscotch Bay","Licorice Lagoon","Jellybean Junction","Cotton Candy Cloud"]
 	},
 	{
 		"name": "Ice Kingdom",
 		"leaderName": "Ice King",
-		"adjective": ["Ice"],
-		"startBias": ["Tundra", "Snow"],
 		"preferredVictoryType": "Domination",
-		"startIntroPart1": "Hey princess! Wanna marry me? No? Okay, let's just rule the frozen north then.",
-		"startIntroPart2": "The Ice Kingdom is cold, lonely, and full of penguins... Gunter!",
-		"declaringWar": "I'm kidnapping you! Er, I mean... declare war!",
-		"attacked": "What the junk?! Nobody attacks Ice King!",
-		"defeated": "Nooooo! My princesses... my kingdom... Gunter, where are you?",
-		"introduction": "Hi! I'm Ice King! Do you like my crown? It gives me power over ice and also sometimes makes me crazy, haha!",
-		"neutralHello": "Oh, it's a person.",
-		"hateHello": "You're not a princess... go away.",
-		"tradeRequest": "I've got some ice sculptures to trade. Very valuable.",
-		"denounced": "You're a big poopyhead!",
-		"declaringfriendship": "You can be my friend! Just don't touch my penguins.",
+		
+		"startIntroPart1": "Hey, princess! Are you ready to be captured?!",
+		"startIntroPart2": "My name is Ice King, and I'll build the biggest ice empire ever — and find a wife!",
+		
+		"declaringWar": "You'll be frozen solid! Prepare to meet my penguins!",
+		"attacked": "Whoa, whoa! Gunter, get the ice magic!",
+		"defeated": "My crown... my powers... all gone... but I still have Gunter...",
+		"introduction": "Hi there! I'm the Ice King. Are you a princess? Want to hang out in my ice palace?",
+		
+		"neutralHello": "Hey, you like penguins?",
+		"hateHello": "You're not a princess. Pfft.",
+		"tradeRequest": "I'll give you this cool ice sculpture for your... um, friendship?",
+		"denounced": "You're no fun! I'm telling Gunter!",
+		"declaringfriendship": "You understand me! Wanna have a sleepover in my ice castle?",
+		
 		"outerColor": [173, 216, 230],
-		"innerColor": [100, 149, 237],
-		"uniqueName": "Frozen Dominion",
+		"innerColor": [0, 191, 255],
+		"uniqueName": "Cryomancy",
 		"uniques": [
-			"[+1 Food, +1 Production] from [Snow] tiles",
-			"[+1 Culture] from [Tundra] tiles",
-			"Units fight at full strength when attacking [in Snow]"
+			"[+1 Production] from every [Snow] tile",
+			"[+20% Strength] for [All] units <when fighting in [Snow] tiles>",
+			"[-1 Happiness] from every [City]"
 		],
-		"cities": [
-			"Iceberg","Frozen Keep","Snowman's Land","Frostbite","Penguin Point","Blizzard","Coldpeak",
-			"Crystal Cave","Hailstone","Icy Spire","Wintermoor","Shiver","Glacier","Avalanche","Frosthold",
-			"Frigid","Northwind","Chillstead","Whiteout","Icicle","Permafrost"
-		]
+		"cities": ["Ice Palace","Frostbite Fjord","Penguin Peak","Gunter's Grotto","Blizzard Beach","Frozen Fractals","Snowman Stronghold","Hailstone Hall","Iceberg Isle","Chillwind Chasm","Glacier Keep","Snowball Citadel","The Iceberg","Coldfront Post","Avalanche Alcove"]
 	},
 	{
 		"name": "Fire Kingdom",
 		"leaderName": "Flame Princess",
-		"adjective": ["Fire"],
-		"startBias": ["Desert"],
 		"preferredVictoryType": "Domination",
-		"startIntroPart1": "Everything burns. That's just how it is. But I'm trying to be a good ruler.",
-		"startIntroPart2": "The Fire Kingdom is a land of magma, scorched earth, and fierce warriors.",
-		"declaringWar": "You've pissed me off. Now you burn.",
-		"attacked": "You think you can extinguish me? Try harder!",
-		"defeated": "Too much... water... I'm sorry, my people...",
-		"introduction": "I'm Flame Princess. Stay cool, or don't. I don't really care.",
-		"neutralHello": "What?",
-		"hateHello": "You're in my way.",
-		"tradeRequest": "Take this obsidian. It's sharp and hot. Perfect for gifts.",
-		"denounced": "You're weak. I can't stand weakness.",
-		"declaringfriendship": "Alright, you're not as terrible as the others. Let's be allies.",
+		
+		"startIntroPart1": "The Fire Kingdom burns eternal!",
+		"startIntroPart2": "I am Flame Princess, and I will not be contained. My fire will reshape the world.",
+		
+		"declaringWar": "You are evil and must be purged by fire!",
+		"attacked": "You dare attack me? I'll turn your land to ash!",
+		"defeated": "No... the fire is going out... but my embers will rise again!",
+		"introduction": "You stand before Flame Princess. Speak quickly before you get burned.",
+		
+		"neutralHello": "Hi. I'm trying to control my temper.",
+		"hateHello": "You're making me so mad. Leave.",
+		"tradeRequest": "I'll trade you some lava rocks for supplies.",
+		"denounced": "You are a liar and a betrayer. You'll be ashes soon.",
+		"declaringfriendship": "You're one of the few I don't want to set on fire. Let's be allies.",
+		
 		"outerColor": [255, 69, 0],
-		"innerColor": [220, 20, 60],
-		"uniqueName": "Blazing Rage",
+		"innerColor": [255, 215, 0],
+		"uniqueName": "Everburning Rage",
 		"uniques": [
-			"[+15% Strength] for [All] units <when attacking>",
-			"[+1 Production] from [Desert] tiles",
-			"[-1 Happiness] from every [Forest] tile <in this city>"
+			"[+1 Production] from every [Volcano] tile",
+			"[+15% Strength] for [Melee] units <when attacking>",
+			"[-2 Food] in [All] cities"
 		],
-		"cities": [
-			"Flame City","Cinder","Volcanic Fort","Ember","Magma","Inferno","Pyre",
-			"Ash","Firepit","Scorch","Torch","Flare","Coal","Brimstone","Lavafall",
-			"Blaze","Burning","Crackle","Smolder","Hellfire","Phoenix"
-		]
+		"cities": ["Fire Citadel","Ember City","Blazing Peak","Magma Moat","Lava Lake","Inferno Keep","Flame Heart","Cinderforge","Scorchburg","Ashfall","Pyre Island","Torch Town","Flametongue Tower","Brandburg","Sparkseed"]
 	},
 	{
-		"name": "Lumpy Space",
-		"leaderName": "Lumpy Space Princess",
-		"adjective": ["Lumpy"],
-		"startBias": ["Avoid [Desert]", "Avoid [Tundra]"],
-		"preferredVictoryType": "Cultural",
-		"startIntroPart1": "Oh my glob, you guys, it's Lumpy Space!",
-		"startIntroPart2": "We don't have, like, rules. Just lumps. And drama.",
-		"declaringWar": "You're totally not my style. Prepare for a lumping!",
-		"attacked": "Ugh, violence? So un-lumpy. But fine!",
-		"defeated": "Whatever, I'm gonna go sulk in the Lumpy Space dimension.",
-		"introduction": "Hiiiii! I'm LSP. You're probably, like, totally jealous of my lumpy awesomeness.",
-		"neutralHello": "Hey girl, hey.",
-		"hateHello": "Ew, you look lumpy. And not in the good way.",
-		"tradeRequest": "I'll give you some of my excess lumps for, like, whatever.",
-		"denounced": "You are such a lump-free weirdo!",
-		"declaringfriendship": "We're besties now! Let's do brunch.",
-		"outerColor": [153, 50, 204],
-		"innerColor": [221, 160, 221],
-		"uniqueName": "Lumpy Charisma",
+		"name": "Lemon Kingdom",
+		"leaderName": "Earl of Lemongrab",
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "UNACCEPTABLE!",
+		"startIntroPart2": "I am Lemongrab. The Lemon Kingdom will have order, or there will be screaming!",
+		
+		"declaringWar": "YOU ARE ALL UNACCEPTABLE! DIE! DIE DIE DIE!",
+		"attacked": "Mmm, ATTACKERS? THIS IS MY KINGDOM! YOU WILL BE LEMONIZED!",
+		"defeated": "Everything is... unacceptable... even... death... UNACCEPTABLEEEEE!",
+		"introduction": "WHO COMES TO LEMONGRAB'S KINGDOM? STATE YOUR PURPOSE, NOW!",
+		
+		"neutralHello": "Hmm... you're acceptable. For now.",
+		"hateHello": "You're in my seat. UNACCEPTABLE!",
+		"tradeRequest": "Trade? You can have one lemon child for three bottles of lemon juice.",
+		"denounced": "You are NOT ACCEPTABLE! You are WRONG!",
+		"declaringfriendship": "You are... acceptable. We can be lemon friends.",
+		
+		"outerColor": [255, 255, 0],
+		"innerColor": [200, 200, 0],
+		"uniqueName": "Lemon Law",
 		"uniques": [
-			"[+1 Happiness] from every [City-State] friend",
-			"[+2 Culture] from every [Great Work]",
-			"[-1 Gold] per [City] <starting from the second city>"
+			"[+10% Production] in [All] cities",
+			"[-1 Happiness] from every [City]",
+			"[+1 Gold] from every [Citrus] tile"
 		],
-		"cities": [
-			"Lumpy Space","Wiggle Room","Jiggle","Lumpopolis","Drama","Glob","Flumpty",
-			"Lumpington","Swoop","Bumble","Plumpy","Lumpalicious","Shmoop","Lumpia","Gobble",
-			"Groove","Dumpling","Lumpville","Squish","Lumptacular","Lumpycore"
-		]
+		"cities": ["Castle Lemongrab","Lemonhope","Sour Citadel","Yellowkeep","Lemonburg","Citrus City","Lemon Grotto","Tart Tower","Lemonade Lake","Pith Palace","Zest Town","Rind Ridge","Squeezehold","Lemon Seed","Acrid Acres"]
 	},
 	{
-		"name": "Wildberry Kingdom",
-		"leaderName": "Wildberry Princess",
-		"adjective": ["Wildberry"],
-		"startBias": ["Jungle"],
-		"preferredVictoryType": "Diplomatic",
-		"startIntroPart1": "From the tangled jungles of Ooo, the sweetest berries grow.",
-		"startIntroPart2": "We may be small, but our berries pack a punch – and a vote.",
-		"declaringWar": "For the grove! Roll out the berry brigade!",
-		"attacked": "You dare stomp on our vines? Prepare for a thorny reception!",
-		"defeated": "The jam is spoiled... but seeds will scatter.",
-		"introduction": "Welcome, friend! Can I offer you a fresh raspberry?",
-		"neutralHello": "Hello, traveller.",
-		"hateHello": "Your footsteps crush our berries.",
-		"tradeRequest": "I have the finest wildberries. A trade would sweeten both our lives.",
-		"denounced": "Your politics are as flavorless as an unripe blueberry.",
-		"declaringfriendship": "Let us grow together, like intertwining vines!",
-		"outerColor": [34, 139, 34],
-		"innerColor": [144, 238, 144],
-		"uniqueName": "Berry Bounty",
+		"name": "Nightosphere",
+		"leaderName": "Hunson Abadeer",
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "Welcome to the Nightosphere. You'll never want to leave.",
+		"startIntroPart2": "I am Hunson Abadeer, ruler of chaos and darkness. Your soul is already mine.",
+		
+		"declaringWar": "Time to feast on your screams! The Nightosphere hungers!",
+		"attacked": "Fool! You can't destroy darkness itself!",
+		"defeated": "Even the Lord of Evil can be defeated... but I'll be back. I always come back.",
+		"introduction": "Hello, mortal. Want a deal? Your soul is so shiny...",
+		
+		"neutralHello": "Hey, got a soul to spare?",
+		"hateHello": "I can smell your goodness from here. Disgusting.",
+		"tradeRequest": "I'll trade you a soul-sucking amulet for some land.",
+		"denounced": "You're so goody-goody it makes me sick!",
+		"declaringfriendship": "You're wonderfully terrible. Let's wreak some havoc together.",
+		
+		"outerColor": [75, 0, 130],
+		"innerColor": [0, 0, 0],
+		"uniqueName": "Soul Harvest",
 		"uniques": [
-			"[+1 Food] from [Jungle] tiles",
-			"[+2 Happiness] from each improved [Citrus] resource",
-			"[+1 Culture] from every [Plantation]"
+			"[+1 Faith] from every [Killed Unit]",
+			"[+1 Culture] from every [Defeated Enemy City]",
+			"[-25% Growth] in [All] cities"
 		],
-		"cities": [
-			"Berryburg","Strawberry Fields","Raspberry Grove","Blueberry Keep","Blackberry",
-			"Gooseberry","Elderberry","Huckleberry","Cranberry","Mulberry","Berrywood","Vineyard",
-			"Sweetthorn","Juiceville","Jamestown","Berrypatch","Fruitvale","Berryton","Berryland"
-		]
-	},
-	{
-		"name": "Slime Kingdom",
-		"leaderName": "Slime Princess",
-		"adjective": ["Slime"],
-		"startBias": ["Coast"],
-		"preferredVictoryType": "Cultural",
-		"startIntroPart1": "Squish, squish. Welcome to the Slime Kingdom.",
-		"startIntroPart2": "We're oozy, drippy, and surprisingly good at art and hugs.",
-		"declaringWar": "You are not fun. Prepare to be slimed!",
-		"attacked": "Ew, pointy things! But we stick together!",
-		"defeated": "Oh glob, we're drying out... nooo...",
-		"introduction": "Hi. Want a slime hug? It's very moist.",
-		"neutralHello": "Blup.",
-		"hateHello": "You look dry. I don't like dry.",
-		"tradeRequest": "I have some extra goo. Very useful for lubricating... things.",
-		"denounced": "You are solid and stubborn. Have you ever considered being more flexible?",
-		"declaringfriendship": "Let's be slime buddies! We'll ooze together!",
-		"outerColor": [50, 205, 50],
-		"innerColor": [0, 128, 0],
-		"uniqueName": "Oozy Resilience",
-		"uniques": [
-			"[All] units heal [5] HP per turn, even after attacking",
-			"[+1 Movement] for [Civilian] units",
-			"[-10% Strength] for [All] units <when defending>"
-		],
-		"cities": [
-			"Slime Pit","Goo Town","Ooze","Drip","Sludge","Muck","Squelch","Jelly",
-			"Puddle","Gloop","Slippery","Squish","Blubber","Drool","Slimy","Slop",
-			"Gelatin","Viscous","Mucus","Slimopolis"
-		]
-	},
-	{
-		"name": "Breakfast Kingdom",
-		"leaderName": "Breakfast Princess",
-		"adjective": ["Breakfast"],
-		"startBias": ["Grassland"],
-		"preferredVictoryType": "Cultural",
-		"startIntroPart1": "Rise and shine! Breakfast Kingdom is the most important kingdom of the day!",
-		"startIntroPart2": "We serve up pancakes, bacon, and a generous helping of diplomacy.",
-		"declaringWar": "Sorry, but you're toast!",
-		"attacked": "Don't egg us on! We'll scramble your forces!",
-		"defeated": "We're... burnt out. But breakfast will be served again tomorrow.",
-		"introduction": "Good morning! Would you like some coffee and a scone?",
-		"neutralHello": "Howdy!",
-		"hateHello": "Oh, it's you. My pancakes have lost their fluffiness.",
-		"tradeRequest": "I've got a surplus of bacon. Interested?",
-		"denounced": "Your kingdom is like a burnt omelette – unpleasant and hard to swallow.",
-		"declaringfriendship": "You're invited to brunch! Friends forever!",
-		"outerColor": [255, 215, 0],
-		"innerColor": [255, 140, 0],
-		"uniqueName": "Morning Boost",
-		"uniques": [
-			"[+1 Gold, +1 Food] from every [Farm]",
-			"[+1 Happiness] from every [Wheat] resource",
-			"[-15% Growth] in all cities <when not at war>"
-		],
-		"cities": [
-			"Pancake Palace","Bacon","Eggsville","Toast","Hashbrown","Waffle","Cereal",
-			"Oatmeal","Sausage","Muffin","Croissant","Syrup","Butter","Jam","Bagel",
-			"Yogurt","Granola","Brioche","Donut","Crepe","Scone"
-		]
+		"cities": ["The Pit","Demon's Gate","Soulforge","Abyss","Shadowmere","Dreadkeep","Nightmare","Nether","Gloomreach","Hades Hollow","Pandemonium","Chaos Spire","Darkhaven","Voidburg","Terrorium"]
 	},
 	{
 		"name": "Goblin Kingdom",
-		"leaderName": "Goblin King",
-		"adjective": ["Goblin"],
-		"startBias": ["Hills"],
-		"preferredVictoryType": "Domination",
-		"startIntroPart1": "Grr, goblins rule the underground!",
-		"startIntroPart2": "We dig, we scrap, we swarm. Don't underestimate a goblin horde.",
-		"declaringWar": "Get 'em, boys! Shiny things for everyone!",
-		"attacked": "You come to our tunnels? Fool! We'll bury you!",
-		"defeated": "Our tunnels collapse... no more shinies...",
-		"introduction": "Hey you. Got any sparkly things? No? Then what're you good for?",
-		"neutralHello": "Uhh... hi?",
-		"hateHello": "You smell like a dwarf. I don't like dwarves.",
-		"tradeRequest": "Trade us metal for shiny things, yes?",
-		"denounced": "You're not even worth a rusty nail!",
-		"declaringfriendship": "You're okay. We'll share our scrap pile with you.",
-		"outerColor": [85, 107, 47],
-		"innerColor": [139, 69, 19],
-		"uniqueName": "Tunnel Network",
-		"uniques": [
-			"[+1 Movement] for [All] units in [Hill]",
-			"[+25% Production] towards [Mining] improvements",
-			"[-1 Sight] for [All] units"
-		],
-		"cities": [
-			"Goblin Hole","Tunnel","Grub","Scrap","Shiny","Dig","Pickaxe","Rust",
-			"Burrow","Muck","Gloom","Cave","Underrock","Worm","Mole","Shaft","Trench",
-			"Deepdown","Rubble","Dusk"
-		]
-	},
-	{
-		"name": "City of Thieves",
-		"leaderName": "The Guildmaster",
-		"adjective": ["Thieves"],
-		"startBias": ["Avoid [Tundra]"],
+		"leaderName": "King Goblin",
 		"preferredVictoryType": "Diplomatic",
-		"startIntroPart1": "Welcome to the City of Thieves. Watch your pockets.",
-		"startIntroPart2": "We have no laws, only 'unwritten agreements'. Our economy runs on nimble fingers.",
-		"declaringWar": "We're taking what's ours. And what's yours. Mostly yours.",
-		"attacked": "Heh, you think you can catch us?",
-		"defeated": "Alright, you got us. The loot's all yours... this time.",
-		"introduction": "Hey pal, wanna buy a watch? It's totally not stolen.",
-		"neutralHello": "What's up?",
-		"hateHello": "Keep your distance, this one's got 'guards' written all over them.",
-		"tradeRequest": "I've got some 'discounted' goods. No questions asked.",
-		"denounced": "You're way too honest. It's disgusting.",
-		"declaringfriendship": "You're a trustworthy scoundrel. Let's split some loot.",
-		"outerColor": [105, 105, 105],
-		"innerColor": [192, 192, 192],
-		"uniqueName": "Sticky Fingers",
+		
+		"startIntroPart1": "Gobbo likes shiny things! Gobbo likes friends!",
+		"startIntroPart2": "King Goblin rule with tiny crown! Goblins multiply fast and love peace, but don't touch our shinies!",
+		
+		"declaringWar": "You touch our treasure?! You get the STICK!",
+		"attacked": "Nooo! Our shinies! Goblins, defend the shinies!",
+		"defeated": "King Goblin's reign end... but little Gobbos will find new shiny someday...",
+		"introduction": "Hello big person! Trade shiny stuff? You give, I give?",
+		
+		"neutralHello": "Gobbo see you have nice hat. Gobbo like.",
+		"hateHello": "You smell like grumpy giant. Gobbo not like.",
+		"tradeRequest": "You want ten rocks for one gold? Good deal!",
+		"denounced": "You are meanie! No shiny for you!",
+		"declaringfriendship": "You are best friend! Gobbo share secret berry juice!",
+		
+		"outerColor": [34, 139, 34],
+		"innerColor": [154, 205, 50],
+		"uniqueName": "Goblin Horde",
 		"uniques": [
-			"[+1 Gold] from every [City-State] trade route",
-			"[+15% Gold] from all [Trade Routes]",
-			"[+2 Happiness] from every [Luxury resource]"
+			"[+1 Food] from every [Forest] tile",
+			"[+50% Production] towards [Recon] units",
+			"[-50% Gold] from [Trade Route]"
 		],
-		"cities": [
-			"Thieves' Den","Pickpocket","Shadow","Heist","Loot","Fence","Burglar",
-			"Swindle","Snatch","Pilfer","Rogue","Scoundrel","Sly","Grift","Bandit",
-			"Shank","Cutpurse","Smuggler","Mug","Hustle"
-		]
-	},
-	{
-		"name": "Castle Lemongrab",
-		"leaderName": "Earl of Lemongrab",
-		"adjective": ["Lemongrab"],
-		"startBias": ["Avoid [Jungle]"],
-		"preferredVictoryType": "Domination",
-		"startIntroPart1": "UNACCEPTABLE!",
-		"startIntroPart2": "The Castle of Lemongrab is a land of rigid order, sour tempers, and loud screams.",
-		"declaringWar": "YOU are UNACCEPTABLE! Prepare for judgement!",
-		"attacked": "HOW DARE YOU! This is MY castle!",
-		"defeated": "Unacceptable... unacceptable... un... acceptable...",
-		"introduction": "I am the Earl of Lemongrab! You must follow the rules or face the consequences!",
-		"neutralHello": "State your business.",
-		"hateHello": "LEAVE. NOW.",
-		"tradeRequest": "I will trade you this lemon, but you must not peel it!",
-		"denounced": "YOU ARE A BLIGHT ON THIS LAND!",
-		"declaringfriendship": "You are... acceptable. For now. Don't make me regret this.",
-		"outerColor": [255, 255, 0],
-		"innerColor": [200, 200, 0],
-		"uniqueName": "Unacceptable!",
-		"uniques": [
-			"[+20% Strength] for [All] units <when adjacent to an enemy [Capital]>",
-			"[+1 Happiness] from every [Courthouse]",
-			"[-2 Happiness] from [Civilian] units <in [Enemy] territory>"
-		],
-		"cities": [
-			"Lemongrab","Lemoncastle","Sour Keep","Citrus","Rind","Zest","Tart","Bitter",
-			"Pucker","Yellow","Lemonland","Acid","Citron","Peel","Segment","Pith",
-			"Lemonopolis","Sourville","Tartown","Lemonwood"
-		]
+		"cities": ["Goblin Town","Shiny Hill","Mudhole","Bramble Burrow","Stick Fort","Nutgrove","Twiggy Heath","Acorn Village","Mossy Den","Gloop Bog","Trinket Trove","Pebble Creek","Fernhollow","Sproutpatch","Squeakburg"]
 	}
 ]
