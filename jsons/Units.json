@@ -1,140 +1,62 @@
 [
     {
-        "name": "Settler",
-        "unitType": "Civilian",
-        "movement": 2,
-        "uniques": ["Founds a new city <by consuming this unit>","Requires at least [2] population"],
-        "cost": 106
-    },
-    {
-        "name": "Worker",
-        "unitType": "Civilian",
-        "movement": 2,
-        "uniques": ["Can build tile improvements"],
-        "cost": 70
-    },
-    {
-        "name": "Adventurer",
-        "unitType": "Infantry",
-        "movement": 2,
-        "strength": 8,
-        "cost": 56,
-        "requiredTech": "Bronze Working",
-        "attackSound": "sword"
-    },
-    {
-        "name": "Archer",
-        "unitType": "Ranged",
-        "movement": 2,
-        "strength": 6,
-        "rangedStrength": 8,
-        "range": 2,
-        "cost": 56,
-        "requiredTech": "Archery",
-        "attackSound": "arrow"
-    },
-    {
-        "name": "Trebuchet",
-        "unitType": "Siege",
-        "movement": 2,
-        "strength": 7,
-        "rangedStrength": 12,
-        "range": 2,
-        "cost": 75,
-        "requiredTech": "Engineering",
-        "uniques": ["Must set up before attacking"],
-        "attackSound": "cannon"
-    },
-    {
-        "name": "Galley",
-        "unitType": "Water",
-        "movement": 4,
-        "strength": 10,
-        "cost": 60,
-        "requiredTech": "Sailing",
-        "attackSound": "boat"
-    },
-    {
-        "name": "Ranged Galley",
-        "unitType": "WaterRanged",
-        "movement": 4,
-        "strength": 8,
-        "rangedStrength": 12,
-        "range": 2,
-        "cost": 70,
-        "requiredTech": "Optics",
-        "attackSound": "arrow"
-    },
-    {
         "name": "Finn",
-        "unitType": "Infantry",
+        "unitType": "Sword",
         "uniqueTo": "Candy Kingdom",
         "movement": 3,
         "strength": 22,
         "cost": 120,
         "requiredTech": "Steel",
         "uniques": ["Limited to [1] per Civilization", "[+15]% Strength <when fighting in [Forest] tiles>"],
-        "promotions": ["Shock I", "Cover I"],
-        "attackSound": "sword"
+        "promotions": ["Shock I", "Cover I"]
     },
     {
         "name": "Jake",
-        "unitType": "Infantry",
+        "unitType": "Sword",
         "uniqueTo": "Candy Kingdom",
         "movement": 2,
         "strength": 20,
         "cost": 110,
         "requiredTech": "Civil Service",
         "uniques": ["Limited to [1] per Civilization", "Can move after attacking"],
-        "promotions": ["March"],
-        "attackSound": "stretch"
+        "promotions": ["March"]
     },
     {
         "name": "Princess Bubblegum",
         "unitType": "Civilian",
         "uniqueTo": "Candy Kingdom",
         "movement": 3,
-        "strength": 0,
         "cost": 150,
         "requiredTech": "Education",
-        "uniques": [
-            "Limited to [1] per Civilization",
-            "Can instantly construct a [Library] <by consuming this unit>"
-        ],
-        "attackSound": "nonattack"
+        "uniques": ["Limited to [1] per Civilization", "Can instantly construct a [Library] <by consuming this unit>"]
     },
     {
         "name": "Banana Guards",
-        "unitType": "Infantry",
+        "unitType": "Sword",
         "uniqueTo": "Candy Kingdom",
-        "replaces": "Adventurer",
+        "replaces": "Swordsman",
         "movement": 2,
-        "strength": 10,
-        "cost": 50,
-        "requiredTech": "Bronze Working",
-        "uniques": ["Limited to [3] per Civilization", "[+5]% Strength for each adjacent [Banana Guards] unit"],
-        "attackSound": "spear"
+        "strength": 14,
+        "cost": 75,
+        "requiredTech": "Iron Working",
+        "uniques": ["Limited to [3] per Civilization"]
     },
     {
         "name": "Ice King",
-        "unitType": "Ranged",
+        "unitType": "Archery",
         "uniqueTo": "Ice Kingdom",
         "movement": 2,
         "strength": 14,
         "rangedStrength": 24,
-        "range": 3,
+        "range": 2,
         "cost": 160,
         "requiredTech": "Physics",
-        "uniques": [
-            "Limited to [1] per Civilization",
-            "[+20]% Strength <when fighting in [Snow Land] tiles>"
-        ],
-        "promotions": ["Range"],
-        "attackSound": "ice"
+        "uniques": ["Limited to [1] per Civilization"],
+        "promotions": ["Range"]
     },
     {
         "name": "Flame Princess",
-        "unitType": "Ranged",
+        "unitType": "Archery",
         "uniqueTo": "Fire Kingdom",
         "movement": 2,
         "strength": 12,
@@ -142,44 +64,30 @@
         "range": 2,
         "cost": 165,
         "requiredTech": "Chemistry",
-        "uniques": [
-            "Limited to [1] per Civilization",
-            "Deals [10] damage to adjacent units"
-        ],
-        "promotions": ["Blitz"],
-        "attackSound": "fire"
+        "uniques": ["Limited to [1] per Civilization"],
+        "promotions": ["Blitz"]
     },
     {
         "name": "Lemongrab",
-        "unitType": "Infantry",
+        "unitType": "Sword",
         "uniqueTo": "Lemon Kingdom",
         "movement": 2,
         "strength": 24,
         "cost": 140,
         "requiredTech": "Metal Casting",
-        "uniques": [
-            "Limited to [1] per Civilization",
-            "[+1] Happiness <when garrisoned in a city>",
-            "[+1] Unhappiness [in all cities]"
-        ],
-        "promotions": ["Drill I", "Shock I"],
-        "attackSound": "sword"
+        "uniques": ["Limited to [1] per Civilization"],
+        "promotions": ["Drill I", "Shock I"]
     },
     {
         "name": "Marceline",
-        "unitType": "Infantry",
+        "unitType": "Sword",
         "uniqueTo": "Nightosphere",
         "movement": 4,
         "strength": 20,
         "cost": 145,
         "requiredTech": "Guilds",
-        "uniques": [
-            "Limited to [1] per Civilization",
-            "Can move after attacking",
-            "All tiles cost 1 movement"
-        ],
-        "promotions": ["Amphibious"],
-        "attackSound": "bite"
+        "uniques": ["Limited to [1] per Civilization", "Can move after attacking", "All tiles cost 1 movement"],
+        "promotions": ["Amphibious"]
     },
     {
         "name": "Lich",
@@ -191,72 +99,51 @@
         "range": 2,
         "cost": 200,
         "requiredTech": "Theology",
-        "uniques": [
-            "Limited to [1] per Civilization",
-            "[+50]% of defeated unit's strength as [Faith]",
-            "Must set up before attacking"
-        ],
-        "promotions": ["Volley"],
-        "attackSound": "darkness"
+        "uniques": ["Limited to [1] per Civilization", "Must set up before attacking"],
+        "promotions": ["Volley"]
     },
     {
         "name": "King Worm",
-        "unitType": "Infantry",
+        "unitType": "Sword",
         "uniqueTo": "Goblin Kingdom",
         "movement": 1,
         "strength": 28,
         "cost": 175,
         "requiredTech": "Banking",
-        "uniques": [
-            "Limited to [1] per Civilization",
-            "Double movement in [Forest]",
-            "Heals every turn"
-        ],
-        "promotions": ["Medic", "Cover II"],
-        "attackSound": "slither"
+        "uniques": ["Limited to [1] per Civilization", "Double movement in [Forest]", "Heals every turn"],
+        "promotions": ["Medic", "Cover II"]
     },
     {
         "name": "Billy",
-        "unitType": "Infantry",
+        "unitType": "Sword",
         "movement": 2,
         "strength": 25,
         "cost": 180,
         "requiredTech": "Chivalry",
-        "uniques": [
-            "Limited to [1] per Civilization"
-        ],
-        "promotions": ["Shock II", "Drill II"],
-        "attackSound": "sword"
+        "uniques": ["Limited to [1] per Civilization"],
+        "promotions": ["Shock II", "Drill II"]
     },
     {
         "name": "Huntress Wizard",
-        "unitType": "Ranged",
+        "unitType": "Archery",
         "movement": 2,
         "strength": 8,
         "rangedStrength": 20,
         "range": 2,
         "cost": 130,
         "requiredTech": "Archery",
-        "uniques": [
-            "Limited to [1] per Civilization",
-            "[+15]% Strength <when fighting in [Forest] tiles>"
-        ],
-        "promotions": ["Accuracy II"],
-        "attackSound": "arrow"
+        "uniques": ["Limited to [1] per Civilization"],
+        "promotions": ["Accuracy II"]
     },
     {
         "name": "Magic Man",
-        "unitType": "Ranged",
+        "unitType": "Archery",
         "movement": 2,
         "strength": 6,
         "rangedStrength": 18,
         "range": 2,
         "cost": 120,
         "requiredTech": "Philosophy",
-        "uniques": [
-            "Limited to [1] per Civilization"
-        ],
-        "promotions": ["Ignore terrain cost"],
-        "attackSound": "magic"
+        "uniques": ["Limited to [1] per Civilization"]
     }
-        ]
+]
