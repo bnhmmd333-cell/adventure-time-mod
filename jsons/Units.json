@@ -1,7 +1,4 @@
 [
-    // ========================
-    // BASIC UNITS (available to all civilizations)
-    // ========================
     {
         "name": "Settler",
         "unitType": "Civilian",
@@ -68,12 +65,6 @@
         "requiredTech": "Optics",
         "attackSound": "arrow"
     },
-
-    // ========================
-    // KINGDOM-UNIQUE HEROES (limit 1 alive per civ)
-    // ========================
-
-    // --- Candy Kingdom heroes ---
     {
         "name": "Finn",
         "unitType": "Infantry",
@@ -82,7 +73,7 @@
         "strength": 22,
         "cost": 120,
         "requiredTech": "Steel",
-        "uniques": ["Limited to [1] per Civilization", "[+15% Strength] <when fighting in [Forest]>"],
+        "uniques": ["Limited to [1] per Civilization", "[+15]% Strength <when fighting in [Forest]>"],
         "promotions": ["Shock I", "Cover I"],
         "attackSound": "sword"
     },
@@ -108,8 +99,7 @@
         "requiredTech": "Education",
         "uniques": [
             "Limited to [1] per Civilization",
-            "Grants [5] [Science] <in this city>",
-            "Can instantly construct a [Library] improvement <by consuming this unit>"
+            "Can instantly construct a [Library] <by consuming this unit>"
         ],
         "attackSound": "nonattack"
     },
@@ -122,11 +112,9 @@
         "strength": 10,
         "cost": 50,
         "requiredTech": "Bronze Working",
-        "uniques": ["Limited to [3] per Civilization", "[+5% Strength] for each adjacent [Banana Guards] unit"],
+        "uniques": ["Limited to [3] per Civilization", "[+5]% Strength for each adjacent [Banana Guards] unit"],
         "attackSound": "spear"
     },
-
-    // --- Ice Kingdom hero ---
     {
         "name": "Ice King",
         "unitType": "Ranged",
@@ -139,13 +127,11 @@
         "requiredTech": "Physics",
         "uniques": [
             "Limited to [1] per Civilization",
-            "[+20% Strength] <when fighting in [Snow] tiles>"
+            "[+20]% Strength <when fighting in [Snow] tiles>"
         ],
         "promotions": ["Range"],
         "attackSound": "ice"
     },
-
-    // --- Fire Kingdom hero ---
     {
         "name": "Flame Princess",
         "unitType": "Ranged",
@@ -158,13 +144,11 @@
         "requiredTech": "Chemistry",
         "uniques": [
             "Limited to [1] per Civilization",
-            "Deals damage to all adjacent enemy units at the beginning of your turn"
+            "Deals [10] damage to adjacent enemy units at the beginning of your turn"
         ],
         "promotions": ["Blitz"],
         "attackSound": "fire"
     },
-
-    // --- Lemon Kingdom hero ---
     {
         "name": "Lemongrab",
         "unitType": "Infantry",
@@ -175,14 +159,12 @@
         "requiredTech": "Metal Casting",
         "uniques": [
             "Limited to [1] per Civilization",
-            "[+1 Happiness] <when garrisoned in a city>",
-            "[-1 Happiness] from [All] cities every [10] turns"
+            "[+1] Happiness <when garrisoned in a city>",
+            "[-1] Happiness [in all cities]"
         ],
         "promotions": ["Drill I", "Shock I"],
         "attackSound": "sword"
     },
-
-    // --- Nightosphere heroes ---
     {
         "name": "Marceline",
         "unitType": "Infantry",
@@ -217,8 +199,6 @@
         "promotions": ["Volley"],
         "attackSound": "darkness"
     },
-
-    // --- Goblin Kingdom hero ---
     {
         "name": "King Worm",
         "unitType": "Infantry",
@@ -235,10 +215,6 @@
         "promotions": ["Medic", "Cover II"],
         "attackSound": "slither"
     },
-
-    // ========================
-    // GLOBAL HEROES (any civ, limit 1 alive)
-    // ========================
     {
         "name": "Billy",
         "unitType": "Infantry",
@@ -248,7 +224,7 @@
         "requiredTech": "Chivalry",
         "uniques": [
             "Limited to [1] per Civilization",
-            "[+10% Strength] for each adjacent enemy unit"
+            "[+10]% Strength <for each adjacent enemy unit>"
         ],
         "promotions": ["Shock II", "Drill II"],
         "attackSound": "sword"
@@ -264,7 +240,7 @@
         "requiredTech": "Archery",
         "uniques": [
             "Limited to [1] per Civilization",
-            "[+15% Strength] <when fighting in [Forest]>"
+            "[+15]% Strength <when fighting in [Forest]>"
         ],
         "promotions": ["Accuracy II"],
         "attackSound": "arrow"
@@ -279,8 +255,7 @@
         "cost": 120,
         "requiredTech": "Philosophy",
         "uniques": [
-            "Limited to [1] per Civilization",
-            "May randomly teleport to a nearby tile after attacking"
+            "Limited to [1] per Civilization"
         ],
         "promotions": ["Ignore terrain cost"],
         "attackSound": "magic"
