@@ -20,7 +20,7 @@
 		"uniques": [
 			"[+2] Science from every [Sugar] tile",
 			"[+1] Happiness from every [Library]",
-			"[-15]% [Gold] from [Trade Route]"
+			"[-15]% [Gold] from [Trade Routes]"
 		],
 		"cities": ["Candy Capital","Gumball Gardens","Sugar Spire","Lollipop Lane","Peppermint Palace","Gingerbread Village","Chocolate Castle","Cupcake Corner","Marshmallow Meadow","Taffy Town","Caramel Cove","Butterscotch Bay","Licorice Lagoon","Jellybean Junction","Cotton Candy Cloud"]
 	},
@@ -43,9 +43,9 @@
 		"innerColor": [0, 191, 255],
 		"uniqueName": "Cryomancy",
 		"uniques": [
-			"[+1] Production from every [Snow] tile",
-			"[+20]% Strength <when fighting in [Snow] tiles>",
-			"[-1] Happiness from every [City]"
+			"[+1] Production from every [Snow Land] tile",
+			"[+20]% Strength <when fighting in [Snow Land] tiles>",
+			"[+1] Unhappiness from every [City]"
 		],
 		"cities": ["Ice Palace","Frostbite Fjord","Penguin Peak","Gunter's Grotto","Blizzard Beach","Frozen Fractals","Snowman Stronghold","Hailstone Hall","Iceberg Isle","Chillwind Chasm","Glacier Keep","Snowball Citadel","The Iceberg","Coldfront Post","Avalanche Alcove"]
 	},
@@ -94,7 +94,7 @@
 		"uniqueName": "Lemon Law",
 		"uniques": [
 			"[+10]% Production [in all cities]",
-			"[-1] Happiness from every [City]",
+			"[+1] Unhappiness from every [City]",
 			"[+1] Gold from every [Citrus] tile"
 		],
 		"cities": ["Castle Lemongrab","Lemonhope","Sour Citadel","Yellowkeep","Lemonburg","Citrus City","Lemon Grotto","Tart Tower","Lemonade Lake","Pith Palace","Zest Town","Rind Ridge","Squeezehold","Lemon Seed","Acrid Acres"]
@@ -118,7 +118,7 @@
 		"innerColor": [0, 0, 0],
 		"uniqueName": "Soul Harvest",
 		"uniques": [
-			"Gain [1] [Faith] <upon defeating an enemy unit>",
+			"[+1] [Faith] from kills",
 			"Gain [1] [Culture] <upon capturing a city>",
 			"[-25]% Growth [in all cities]"
 		],
@@ -144,8 +144,8 @@
 		"uniqueName": "Goblin Horde",
 		"uniques": [
 			"[+1] Food from every [Forest] tile",
-			"[+50]% Production <for [Recon] units>",
-			"[-50]% [Gold] from [Trade Route]"
+			"[+50]% Production when building [Recon] units",
+			"[-50]% [Gold] from [Trade Routes]"
 		],
 		"cities": ["Goblin Town","Shiny Hill","Mudhole","Bramble Burrow","Stick Fort","Nutgrove","Twiggy Heath","Acorn Village","Mossy Den","Gloop Bog","Trinket Trove","Pebble Creek","Fernhollow","Sproutpatch","Squeakburg"]
 	}
