@@ -1,8 +1,4 @@
 [
-	// ============================
-	// SPECIAL ADVENTURE TIME BUILDINGS
-	// ============================
-
 	{
 		"name": "Tree House",
 		"cost": 80,
@@ -25,7 +21,7 @@
 		"maintenance": 1,
 		"uniques": [
 			"[+1 Culture] from every [Artist] specialist [in this city]",
-			"[+1 Happiness] <for [Nightosphere] Civilization>"
+			"[+1 Happiness] <for [Nightosphere] Civilizations>"
 		],
 		"requiredTech": "Philosophy",
 		"quote": "'I'm not a bad person, I just like to eat red.' - Marceline"
@@ -44,11 +40,6 @@
 		"requiredTech": "Education",
 		"quote": "'I'm Prismo. I'm a cosmic being who can make any wish come true. But only one.'"
 	},
-
-	// ============================
-	// BASIC BUILDINGS (every base ruleset needs these)
-	// ============================
-
 	{
 		"name": "Palace",
 		"isNationalWonder": true,
@@ -71,6 +62,7 @@
 	{
 		"name": "Granary",
 		"food": 2,
+		"cost": 60,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -81,6 +73,7 @@
 	},
 	{
 		"name": "Library",
+		"cost": 80,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": ["[+1 Science] per [2] population [in this city]"],
@@ -106,6 +99,7 @@
 	{
 		"name": "Market",
 		"gold": 2,
+		"cost": 100,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredTech": "Currency"
