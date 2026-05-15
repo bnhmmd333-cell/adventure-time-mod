@@ -1,16 +1,55 @@
 [
     {
-        "name": "Tier 0 Era",
+        "name": "Ancient era",
         "researchAgreementCost": 150,
-        "startingSettlerCount": 1, 
+        "startingSettlerCount": 1,
         "startingWorkerCount": 0,
         "startingMilitaryUnitCount": 1,
-        "startingMilitaryUnit": "Rifleman",
+        "startingMilitaryUnit": "Adventurer",
         "settlerPopulation": 1,
         "baseUnitBuyCost": 200,
         "embarkDefense": 3,
         "startPercent": 0,
         "citySound": "cityAncient",
         "iconRGB": [255, 87, 35]
+    },
+    {
+        "name": "Classical era",
+        "researchAgreementCost": 250,
+        "startingSettlerCount": 0,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 0,
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 3,
+        "startPercent": 0,
+        "citySound": "cityClassical",
+        "iconRGB": [100, 200, 50]
+    },
+    {
+        "name": "Medieval era",
+        "researchAgreementCost": 350,
+        "startingSettlerCount": 0,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 0,
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 3,
+        "startPercent": 0,
+        "citySound": "cityMedieval",
+        "iconRGB": [50, 50, 200]
+    },
+    {
+        "name": "Renaissance era",
+        "researchAgreementCost": 450,
+        "startingSettlerCount": 0,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 0,
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 3,
+        "startPercent": 0,
+        "citySound": "cityRenaissance",
+        "iconRGB": [200, 50, 100]
     }
 ]
