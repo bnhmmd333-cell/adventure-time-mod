@@ -1,0 +1,121 @@
+[
+	// ============================
+	// SPECIAL ADVENTURE TIME BUILDINGS
+	// ============================
+
+	{
+		"name": "Tree House",
+		"cost": 80,
+		"food": 1,
+		"happiness": 2,
+		"culture": 1,
+		"maintenance": 1,
+		"uniques": [
+			"[+1 Happiness] from [Forest] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]"
+		],
+		"requiredTech": "Pottery",
+		"quote": "'Home is where the heart is, and Finn's heart is in the Tree House.'"
+	},
+	{
+		"name": "Marceline's House",
+		"cost": 120,
+		"culture": 3,
+		"happiness": 1,
+		"maintenance": 1,
+		"uniques": [
+			"[+1 Culture] from every [Artist] specialist [in this city]",
+			"[+1 Happiness] <for [Nightosphere] Civilization>"
+		],
+		"requiredTech": "Philosophy",
+		"quote": "'I'm not a bad person, I just like to eat red.' - Marceline"
+	},
+	{
+		"name": "Prismo's Time Room",
+		"cost": 300,
+		"science": 5,
+		"happiness": 3,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Scientist": 2},
+		"uniques": [
+			"[+25]% [Science] [in this city]",
+			"[+1 Culture] from every [Wonder] [in all cities]"
+		],
+		"requiredTech": "Education",
+		"quote": "'I'm Prismo. I'm a cosmic being who can make any wish come true. But only one.'"
+	},
+
+	// ============================
+	// BASIC BUILDINGS (every base ruleset needs these)
+	// ============================
+
+	{
+		"name": "Palace",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2.5,
+		"cost": 0,
+		"uniques": ["Indicates the capital city"]
+	},
+	{
+		"name": "Monument",
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Granary",
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"
+		],
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Library",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "Colosseum",
+		"happiness": 2,
+		"cost": 100,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Aqueduct",
+		"food": 2,
+		"happiness": 1,
+		"cost": 80,
+		"hurryCostModifier": 160,
+		"uniques": ["40% of food is carried over after a new citizen is born"],
+		"requiredTech": "Engineering"
+	},
+	{
+		"name": "Market",
+		"gold": 2,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Barracks",
+		"experience": 15,
+		"cost": 75,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Bronze Working"
+	}
+]
