@@ -1,5 +1,4 @@
 [
-    // === BONUS RESOURCES (food, gold, production) ===
     {
         "name": "Sugar",
         "resourceType": "Bonus",
@@ -43,8 +42,6 @@
         "improvedBy": "Plantation",
         "improvedBonus": {"food": 1, "gold": 1}
     },
-
-    // === LUXURY RESOURCES (happiness) ===
     {
         "name": "Volcano",
         "resourceType": "Luxury",
