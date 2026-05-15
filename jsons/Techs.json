@@ -1,0 +1,170 @@
+[
+	// ========== ANCIENT ERA ==========
+	{
+		"name": "Agriculture",
+		"era": "Ancient era",
+		"cost": 20
+	},
+	{
+		"name": "Pottery",
+		"era": "Ancient era",
+		"cost": 35,
+		"prerequisites": ["Agriculture"]
+	},
+	{
+		"name": "Animal Husbandry",
+		"era": "Ancient era",
+		"cost": 35,
+		"prerequisites": ["Agriculture"]
+	},
+	{
+		"name": "Archery",
+		"era": "Ancient era",
+		"cost": 35,
+		"prerequisites": ["Agriculture"]
+	},
+	{
+		"name": "Mining",
+		"era": "Ancient era",
+		"cost": 35,
+		"prerequisites": ["Agriculture"]
+	},
+	{
+		"name": "Bronze Working",
+		"era": "Ancient era",
+		"cost": 55,
+		"prerequisites": ["Mining"]
+	},
+	{
+		"name": "Sailing",
+		"era": "Ancient era",
+		"cost": 55,
+		"prerequisites": ["Pottery"]
+	},
+
+	// ========== CLASSICAL ERA ==========
+	{
+		"name": "Writing",
+		"era": "Classical era",
+		"cost": 55,
+		"prerequisites": ["Pottery"]
+	},
+	{
+		"name": "Philosophy",
+		"era": "Classical era",
+		"cost": 105,
+		"prerequisites": ["Writing"]
+	},
+	{
+		"name": "Optics",
+		"era": "Classical era",
+		"cost": 85,
+		"prerequisites": ["Sailing"]
+	},
+	{
+		"name": "Construction",
+		"era": "Classical era",
+		"cost": 100,
+		"prerequisites": ["Masonry"]
+	},
+	{
+		"name": "Masonry",
+		"era": "Classical era",
+		"cost": 55,
+		"prerequisites": ["Mining"]
+	},
+	{
+		"name": "Horseback Riding",
+		"era": "Classical era",
+		"cost": 105,
+		"prerequisites": ["Animal Husbandry"]
+	},
+	{
+		"name": "Mathematics",
+		"era": "Classical era",
+		"cost": 105,
+		"prerequisites": ["Writing"]
+	},
+
+	// ========== MEDIEVAL ERA ==========
+	{
+		"name": "Currency",
+		"era": "Medieval era",
+		"cost": 175,
+		"prerequisites": ["Philosophy"]
+	},
+	{
+		"name": "Engineering",
+		"era": "Medieval era",
+		"cost": 175,
+		"prerequisites": ["Mathematics", "Construction"]
+	},
+	{
+		"name": "Metal Casting",
+		"era": "Medieval era",
+		"cost": 250,
+		"prerequisites": ["Iron Working"]
+	},
+	{
+		"name": "Iron Working",
+		"era": "Medieval era",
+		"cost": 150,
+		"prerequisites": ["Bronze Working"]
+	},
+	{
+		"name": "Theology",
+		"era": "Medieval era",
+		"cost": 250,
+		"prerequisites": ["Philosophy", "Currency"]
+	},
+	{
+		"name": "Civil Service",
+		"era": "Medieval era",
+		"cost": 300,
+		"prerequisites": ["Philosophy", "Currency"]
+	},
+	{
+		"name": "Guilds",
+		"era": "Medieval era",
+		"cost": 250,
+		"prerequisites": ["Currency"]
+	},
+	{
+		"name": "Chivalry",
+		"era": "Medieval era",
+		"cost": 300,
+		"prerequisites": ["Civil Service", "Horseback Riding"]
+	},
+	{
+		"name": "Education",
+		"era": "Medieval era",
+		"cost": 300,
+		"prerequisites": ["Theology", "Civil Service"]
+	},
+
+	// ========== RENAISSANCE ERA ==========
+	{
+		"name": "Banking",
+		"era": "Renaissance era",
+		"cost": 485,
+		"prerequisites": ["Education", "Guilds"]
+	},
+	{
+		"name": "Physics",
+		"era": "Renaissance era",
+		"cost": 485,
+		"prerequisites": ["Engineering", "Metal Casting"]
+	},
+	{
+		"name": "Steel",
+		"era": "Renaissance era",
+		"cost": 485,
+		"prerequisites": ["Metal Casting", "Physics"]
+	},
+	{
+		"name": "Chemistry",
+		"era": "Renaissance era",
+		"cost": 660,
+		"prerequisites": ["Physics", "Education"]
+	}
+]
