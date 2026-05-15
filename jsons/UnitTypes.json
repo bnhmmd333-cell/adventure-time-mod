@@ -1,5 +1,4 @@
 [
-    // Land-based units (walk/ride on land)
     {
         "name": "Civilian",
         "movementType": "Land"
@@ -28,8 +27,6 @@
         "name": "Scout",
         "movementType": "Land"
     },
-
-    // Water-based units (sail on sea/ocean)
     {
         "name": "Water",
         "movementType": "Water"
@@ -38,8 +35,6 @@
         "name": "WaterRanged",
         "movementType": "Water"
     },
-
-    // Air-based units (fly over everything)
     {
         "name": "Air",
         "movementType": "Air"
@@ -52,8 +47,6 @@
         "name": "Bomber",
         "movementType": "Air"
     },
-
-    // Special types
     {
         "name": "Submarine",
         "movementType": "Water"
