@@ -4,33 +4,43 @@
         "resourceType": "Bonus",
         "food": 2,
         "gold": 1,
-        "terrainsCanBeFoundOn": ["Grass Land", "Plains"]
+        "terrainsCanBeFoundOn": ["Grassland","Plains"],
+        "improvedBy": "Plantation",
+        "improvedBonus": {"food": 1, "gold": 1}
     },
     {
         "name": "Bananas",
         "resourceType": "Bonus",
         "food": 3,
-        "terrainsCanBeFoundOn": ["Forest"]
+        "terrainsCanBeFoundOn": ["Forest"],
+        "improvedBy": "Plantation",
+        "improvedBonus": {"food": 1}
     },
     {
         "name": "Deer",
         "resourceType": "Bonus",
         "food": 1,
         "production": 1,
-        "terrainsCanBeFoundOn": ["Tundra", "Forest", "Grass Land"]
+        "terrainsCanBeFoundOn": ["Tundra","Forest","Grassland"],
+        "improvedBy": "Camp",
+        "improvedBonus": {"food": 1, "production": 1}
     },
     {
         "name": "Wheat",
         "resourceType": "Bonus",
         "food": 1,
-        "terrainsCanBeFoundOn": ["Plains", "Grass Land"]
+        "terrainsCanBeFoundOn": ["Plains","Grassland"],
+        "improvedBy": "Farm",
+        "improvedBonus": {"food": 2}
     },
     {
         "name": "Citrus",
         "resourceType": "Bonus",
         "food": 2,
         "gold": 1,
-        "terrainsCanBeFoundOn": ["Grass Land", "Plains"]
+        "terrainsCanBeFoundOn": ["Grassland","Plains"],
+        "improvedBy": "Plantation",
+        "improvedBonus": {"food": 1, "gold": 1}
     },
     {
         "name": "Volcano",
@@ -38,6 +48,8 @@
         "happiness": 4,
         "production": 2,
         "science": 1,
-        "terrainsCanBeFoundOn": ["Hill"]
+        "terrainsCanBeFoundOn": ["Hill"],
+        "improvedBy": "Mine",
+        "improvedBonus": {"production": 1, "science": 1}
     }
 ]
