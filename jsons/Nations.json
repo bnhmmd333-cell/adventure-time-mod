@@ -14,14 +14,8 @@
 		"tradeRequest": "I've developed a new candy formula. Want to trade for it?",
 		"denounced": "Your behaviour is purely rotten. I'll make sure everyone knows.",
 		"declaringfriendship": "You're not as bad as the other kingdoms. Let's be friends!",
-		"outerColor": [255, 182, 193],
-		"innerColor": [255, 105, 180],
-		"uniqueName": "Candy Science",
-		"uniques": [
-			"[+2] Science from every [Sugar] tile",
-			"[+1] Happiness from every [Library]",
-			"[-15]% [Gold] from [Trade Routes]"
-		],
+		"outerColor": [255, 203, 211],
+		"innerColor": [183, 78, 131],
 		"cities": ["Candy Capital","Gumball Gardens","Sugar Spire","Lollipop Lane","Peppermint Palace","Gingerbread Village","Chocolate Castle","Cupcake Corner","Marshmallow Meadow","Taffy Town","Caramel Cove","Butterscotch Bay","Licorice Lagoon","Jellybean Junction","Cotton Candy Cloud"]
 	},
 	{
@@ -39,14 +33,8 @@
 		"tradeRequest": "I'll give you this cool ice sculpture for your... um, friendship?",
 		"denounced": "You're no fun! I'm telling Gunter!",
 		"declaringfriendship": "You understand me! Wanna have a sleepover in my ice castle?",
-		"outerColor": [173, 216, 230],
-		"innerColor": [0, 191, 255],
-		"uniqueName": "Cryomancy",
-		"uniques": [
-			"[+1] Production from every [Snow Land] tile",
-			"[+20]% Strength <when fighting in [Snow Land] tiles>",
-			"[+1] Unhappiness from every [City]"
-		],
+		"outerColor": [201, 229, 238],
+		"innerColor": [5, 130, 171],
 		"cities": ["Ice Palace","Frostbite Fjord","Penguin Peak","Gunter's Grotto","Blizzard Beach","Frozen Fractals","Snowman Stronghold","Hailstone Hall","Iceberg Isle","Chillwind Chasm","Glacier Keep","Snowball Citadel","The Iceberg","Coldfront Post","Avalanche Alcove"]
 	},
 	{
@@ -64,14 +52,8 @@
 		"tradeRequest": "I'll trade you some lava rocks for supplies.",
 		"denounced": "You are a liar and a betrayer. You'll be ashes soon.",
 		"declaringfriendship": "You're one of the few I don't want to set on fire. Let's be allies.",
-		"outerColor": [255, 69, 0],
-		"innerColor": [255, 215, 0],
-		"uniqueName": "Everburning Rage",
-		"uniques": [
-			"[+1] Production from every [Volcano] tile",
-			"[+15]% Strength <for [Melee] units> <when attacking>",
-			"[-2] Food [in all cities]"
-		],
+		"outerColor": [219, 61, 2],
+		"innerColor": [255, 221, 38],
 		"cities": ["Fire Citadel","Ember City","Blazing Peak","Magma Moat","Lava Lake","Inferno Keep","Flame Heart","Cinderforge","Scorchburg","Ashfall","Pyre Island","Torch Town","Flametongue Tower","Brandburg","Sparkseed"]
 	},
 	{
@@ -89,14 +71,8 @@
 		"tradeRequest": "Trade? You can have one lemon child for three bottles of lemon juice.",
 		"denounced": "You are NOT ACCEPTABLE! You are WRONG!",
 		"declaringfriendship": "You are... acceptable. We can be lemon friends.",
-		"outerColor": [255, 255, 0],
-		"innerColor": [200, 200, 0],
-		"uniqueName": "Lemon Law",
-		"uniques": [
-			"[+10]% Production [in all cities]",
-			"[+1] Unhappiness from every [City]",
-			"[+1] Gold from every [Citrus] tile"
-		],
+		"outerColor": [255, 255, 76],
+		"innerColor": [145, 145, 5],
 		"cities": ["Castle Lemongrab","Lemonhope","Sour Citadel","Yellowkeep","Lemonburg","Citrus City","Lemon Grotto","Tart Tower","Lemonade Lake","Pith Palace","Zest Town","Rind Ridge","Squeezehold","Lemon Seed","Acrid Acres"]
 	},
 	{
@@ -114,14 +90,8 @@
 		"tradeRequest": "I'll trade you a soul-sucking amulet for some land.",
 		"denounced": "You're so goody-goody it makes me sick!",
 		"declaringfriendship": "You're wonderfully terrible. Let's wreak some havoc together.",
-		"outerColor": [75, 0, 130],
-		"innerColor": [0, 0, 0],
-		"uniqueName": "Soul Harvest",
-		"uniques": [
-			"[+1] [Faith] from kills",
-			"Gain [1] [Culture] <upon capturing a city>",
-			"[-25]% Growth [in all cities]"
-		],
+		"outerColor": [129, 76, 167],
+		"innerColor": [5, 5, 5],
 		"cities": ["The Pit","Demon's Gate","Soulforge","Abyss","Shadowmere","Dreadkeep","Nightmare","Nether","Gloomreach","Hades Hollow","Pandemonium","Chaos Spire","Darkhaven","Voidburg","Terrorium"]
 	},
 	{
@@ -139,14 +109,8 @@
 		"tradeRequest": "You want ten rocks for one gold? Good deal!",
 		"denounced": "You are meanie! No shiny for you!",
 		"declaringfriendship": "You are best friend! Gobbo share secret berry juice!",
-		"outerColor": [34, 139, 34],
-		"innerColor": [154, 205, 50],
-		"uniqueName": "Goblin Horde",
-		"uniques": [
-			"[+1] Food from every [Forest] tile",
-			"[+50]% Production when building [Recon] units",
-			"[-50]% [Gold] from [Trade Routes]"
-		],
+		"outerColor": [31, 120, 31],
+		"innerColor": [169, 212, 80],
 		"cities": ["Goblin Town","Shiny Hill","Mudhole","Bramble Burrow","Stick Fort","Nutgrove","Twiggy Heath","Acorn Village","Mossy Den","Gloop Bog","Trinket Trove","Pebble Creek","Fernhollow","Sproutpatch","Squeakburg"]
 	}
 ]
