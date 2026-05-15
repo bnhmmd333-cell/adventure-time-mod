@@ -1,4 +1,5 @@
 [
+    // Land-based units (walk/ride on land)
     {
         "name": "Civilian",
         "movementType": "Land"
@@ -6,6 +7,59 @@
     {
         "name": "Infantry",
         "movementType": "Land"
+    },
+    {
+        "name": "Mounted",
+        "movementType": "Land"
+    },
+    {
+        "name": "Ranged",
+        "movementType": "Land"
+    },
+    {
+        "name": "Siege",
+        "movementType": "Land"
+    },
+    {
+        "name": "Armored",
+        "movementType": "Land"
+    },
+    {
+        "name": "Scout",
+        "movementType": "Land"
+    },
+
+    // Water-based units (sail on sea/ocean)
+    {
+        "name": "Water",
+        "movementType": "Water"
+    },
+    {
+        "name": "WaterRanged",
+        "movementType": "Water"
+    },
+
+    // Air-based units (fly over everything)
+    {
+        "name": "Air",
+        "movementType": "Air"
+    },
+    {
+        "name": "Fighter",
+        "movementType": "Air"
+    },
+    {
+        "name": "Bomber",
+        "movementType": "Air"
+    },
+
+    // Special types
+    {
+        "name": "Submarine",
+        "movementType": "Water"
+    },
+    {
+        "name": "Helicopter",
+        "movementType": "Air"
     }
-    
 ]
