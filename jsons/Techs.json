@@ -1,5 +1,4 @@
 [
-	// ========== ANCIENT ERA ==========
 	{
 		"name": "Agriculture",
 		"era": "Ancient era",
@@ -41,8 +40,6 @@
 		"cost": 55,
 		"prerequisites": ["Pottery"]
 	},
-
-	// ========== CLASSICAL ERA ==========
 	{
 		"name": "Writing",
 		"era": "Classical era",
@@ -85,8 +82,6 @@
 		"cost": 105,
 		"prerequisites": ["Writing"]
 	},
-
-	// ========== MEDIEVAL ERA ==========
 	{
 		"name": "Currency",
 		"era": "Medieval era",
@@ -141,8 +136,6 @@
 		"cost": 300,
 		"prerequisites": ["Theology", "Civil Service"]
 	},
-
-	// ========== RENAISSANCE ERA ==========
 	{
 		"name": "Banking",
 		"era": "Renaissance era",
