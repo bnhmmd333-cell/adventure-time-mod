@@ -73,7 +73,7 @@
         "strength": 22,
         "cost": 120,
         "requiredTech": "Steel",
-        "uniques": ["Limited to [1] per Civilization", "[+15]% Strength <when fighting in [Forest]>"],
+        "uniques": ["Limited to [1] per Civilization", "[+15]% Strength <when fighting in [Forest] tiles>"],
         "promotions": ["Shock I", "Cover I"],
         "attackSound": "sword"
     },
@@ -127,7 +127,7 @@
         "requiredTech": "Physics",
         "uniques": [
             "Limited to [1] per Civilization",
-            "[+20]% Strength <when fighting in [Snow] tiles>"
+            "[+20]% Strength <when fighting in [Snow Land] tiles>"
         ],
         "promotions": ["Range"],
         "attackSound": "ice"
@@ -144,7 +144,7 @@
         "requiredTech": "Chemistry",
         "uniques": [
             "Limited to [1] per Civilization",
-            "Deals [10] damage to adjacent enemy units at the beginning of your turn"
+            "Deals [10] damage to adjacent units"
         ],
         "promotions": ["Blitz"],
         "attackSound": "fire"
@@ -160,7 +160,7 @@
         "uniques": [
             "Limited to [1] per Civilization",
             "[+1] Happiness <when garrisoned in a city>",
-            "[-1] Happiness [in all cities]"
+            "[+1] Unhappiness [in all cities]"
         ],
         "promotions": ["Drill I", "Shock I"],
         "attackSound": "sword"
@@ -193,7 +193,7 @@
         "requiredTech": "Theology",
         "uniques": [
             "Limited to [1] per Civilization",
-            "Earn [50]% of killed enemy's [Strength] as [Faith]",
+            "[+50]% of defeated unit's strength as [Faith]",
             "Must set up before attacking"
         ],
         "promotions": ["Volley"],
@@ -223,8 +223,7 @@
         "cost": 180,
         "requiredTech": "Chivalry",
         "uniques": [
-            "Limited to [1] per Civilization",
-            "[+10]% Strength <for each adjacent enemy unit>"
+            "Limited to [1] per Civilization"
         ],
         "promotions": ["Shock II", "Drill II"],
         "attackSound": "sword"
@@ -240,7 +239,7 @@
         "requiredTech": "Archery",
         "uniques": [
             "Limited to [1] per Civilization",
-            "[+15]% Strength <when fighting in [Forest]>"
+            "[+15]% Strength <when fighting in [Forest] tiles>"
         ],
         "promotions": ["Accuracy II"],
         "attackSound": "arrow"
@@ -260,4 +259,4 @@
         "promotions": ["Ignore terrain cost"],
         "attackSound": "magic"
     }
-]
+        ]
