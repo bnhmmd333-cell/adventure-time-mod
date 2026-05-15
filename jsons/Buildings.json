@@ -32,10 +32,10 @@
 		"science": 5,
 		"happiness": 3,
 		"isWonder": true,
-		"greatPersonPoints": {"Great Scientist": 2},
 		"uniques": [
 			"[+25]% [Science] [in this city]",
-			"[+1 Culture] from every [Wonder] [in all cities]"
+			"[+1 Culture] from every [Wonder] [in all cities]",
+			"[+2] [Great Scientist] points"
 		],
 		"requiredTech": "Education",
 		"quote": "'I'm Prismo. I'm a cosmic being who can make any wish come true. But only one.'"
@@ -47,9 +47,11 @@
 		"science": 3,
 		"gold": 3,
 		"culture": 1,
-		"cityStrength": 2.5,
 		"cost": 0,
-		"uniques": ["Indicates the capital city"]
+		"uniques": [
+			"Indicates the capital city",
+			"[+3] Defense"
+		]
 	},
 	{
 		"name": "Monument",
@@ -93,7 +95,7 @@
 		"happiness": 1,
 		"cost": 80,
 		"hurryCostModifier": 160,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
+		"uniques": ["40% of Food is carried over after population increases"],
 		"requiredTech": "Engineering"
 	},
 	{
