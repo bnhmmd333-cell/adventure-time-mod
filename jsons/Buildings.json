@@ -22,7 +22,6 @@
 		"science": 5,
 		"happiness": 3,
 		"isWonder": true,
-		"uniques": ["[+25]% Science [in this city]"],
 		"requiredTech": "Education"
 	}
 ]
