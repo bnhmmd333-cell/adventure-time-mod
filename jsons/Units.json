@@ -28,7 +28,10 @@
         "movement": 3,
         "cost": 150,
         "requiredTech": "Education",
-        "uniques": ["Limited to [1] per Civilization", "Can instantly construct a [Library] <by consuming this unit>"]
+        "uniques": [
+            "Limited to [1] per Civilization",
+            "[+5] Science <when garrisoned in a city>"
+        ]
     },
     {
         "name": "Banana Guards",
@@ -52,7 +55,7 @@
         "cost": 160,
         "requiredTech": "Physics",
         "uniques": ["Limited to [1] per Civilization"],
-        "promotions": ["Range"]
+        "promotions": ["Barrage I"]
     },
     {
         "name": "Flame Princess",
